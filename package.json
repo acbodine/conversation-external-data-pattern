@@ -1,0 +1,31 @@
+{
+  "name": "conversation-external-data-pattern",
+  "version": "0.0.1",
+  "description": "Demonstrates a best practice pattern for integrating external data sources into Watson Conversation workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acbodine/conversation-external-data-pattern.git"
+  },
+  "keywords": [
+    "watson-conversation",
+    "ibmcode",
+    "best-practices"
+  ],
+  "author": "acbodine@us.ibm.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/acbodine/conversation-external-data-pattern/issues"
+  },
+  "homepage": "https://github.com/acbodine/conversation-external-data-pattern#readme",
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
