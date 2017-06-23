@@ -5,9 +5,3 @@ node_js:
 branches:
   only:
     - master
-
-script:
-  - echo "TODO: Do something useful."
-
-after_success:
-  # - TODO: Do something necessary!
