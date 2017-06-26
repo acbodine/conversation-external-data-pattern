@@ -6,13 +6,24 @@ Demonstrates a best practice pattern for integrating external data sources into 
 ![Watson Conversation Architecture Overview](https://www.ibm.com/watson/developercloud/doc/conversation/images/conversation_arch_overview.png)
 
 ### Setup
-TODO
+```
+$ npm install
+
+$ # Export the necessary environment variables:
+$ #   WATSON_CONVERSATION_USERNAME=
+$ #   WATSON_CONVERSATION_PASSWORD=
+$ #   WATSON_CONVERSATION_WORKSPACE=
+```
 
 ### Test
-TODO
+```
+$ npm test
+```
 
 ### Run
-TODO
+```
+$ node .
+```
 
 ### Contribute
 TODO
