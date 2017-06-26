@@ -3,6 +3,8 @@
 
 Demonstrates a best practice pattern for integrating external data sources into Watson Conversation workflows.
 
+![Watson Conversation Architecture Overview](https://www.ibm.com/watson/developercloud/doc/conversation/images/conversation_arch_overview.png)
+
 ### Setup
 TODO
 
