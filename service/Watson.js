@@ -2,6 +2,13 @@ var
     ConversationV1 = require('watson-developer-cloud/conversation/v1')
 ;
 
+// NOTE: Reference for general app development leveraging Watson Conversation:
+// https://www.ibm.com/watson/developercloud/doc/conversation/develop-app.html
+
+// NOTE: Reference for utilizing Watson Discovery service with Conversation:
+// https://github.com/watson-developer-cloud/conversation-with-discovery
+// https://www.ibm.com/watson/developercloud/doc/discovery/index.html
+
 function Watson () {
     this.conversation = new ConversationV1(configFromEnv())
 }
