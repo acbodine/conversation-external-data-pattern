@@ -4,7 +4,7 @@
   "description": "Demonstrates a best practice pattern for integrating external data sources into Watson Conversation workflows.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./**/*_test.js"
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,13 @@
   },
   "homepage": "https://github.com/acbodine/conversation-external-data-pattern#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "cfenv": "^1.0.4",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "watson-developer-cloud": "^2.32.1"
   },
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
   }
 }

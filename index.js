@@ -1,6 +1,8 @@
 var
     cfenv   = require('cfenv'),
-    express = require('express')
+    express = require('express'),
+
+    registerRouters = require('./router')
 ;
 
 var port = 80;
@@ -14,6 +16,9 @@ var app = express();
 app.get('/', function (req, res) {
     res.send("Hello from conversation-external-data-pattern application.");
 });
+
+// Hookup routers to the Express application.
+registerRouters(app);
 
 app.listen(port, function () {
     console.log('Ready to handle conversations @ localhost:', port);
